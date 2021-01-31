@@ -1,0 +1,66 @@
+Minimum levels of software testing:
+-----------------------------------
+Testing phase requires to do different types of testing.
+
+1.Unit Testing                     (white)    -> Dev
+2.Integration testing              (white)    -> Dev/QA
+3.System testing                    (black)   -> Tester 
+4.UAT (User Acceptance testing)    (black)   -> Tester/Customer
+
+
+
+
+
+
+
+
+White box testing:- Dev
+-------------------
+-test the internal working or code.
+- test the code by writing the test cases.
+-done by developers by understanding the coding.
+- focus on code coverage
+-test based on coding point of view.
+ex: unit testing + integration testing.
+dev has to write Junits test cases using code.
+
+
+
+1.Unit Testing:
+---------------
+ - Tested by Dev
+ - write code to test the code
+ - Testing is not on the product functionality  ;
+ testing is only on the code written by the developer.
+
+ex: if we have login requiremnets:
+we need write 4 functions (dev)
+
+Dev:
+------------- 
+-> input()  
+-> validate()
+-> process()
+-> showResponse()
+
+unit testing:
+---------------
+->input() 
+      -> test the input() funtion by writing test cases 
+->validate()
+       -> test the validate() funtion by writing test cases  
+->process()
+        -> test the process() funtion by writing test cases  
+->showResponse()
+         -> test the showResponse() funtion by writing test cases  
+
+frameworks used for unit Testing:
+----------------------------------------
+Junits 
+Mockito
+EasyMock
+RestEasy
+Apache HttpClient
+		 
+		 
+		 

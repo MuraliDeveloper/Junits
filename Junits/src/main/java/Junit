@@ -1,0 +1,59 @@
+steps:
+--------------
+1.Create the maven project
+2.under pom.xml add the maven dependency for junit 5
+  	
+  	<dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.5.2</version>
+</dependency>
+3. Go to Help>" Install New Software" > search "EclEmma" and install
+
+4.under
+src/main/java:
+    write the funtional code
+    
+5. src/test/java:
+    write the junit test cases
+    
+    
+ Junit Annotations:
+ --------------------------
+ 
+ 
+ 	
+	Junit 4:                         Juit5
+---------------------------------------------         
+	@BeforeClass                      @BeforeAll     -> before all test methods  
+	@Before                           @BeforeEach    -> before  each method
+	@AfterClass                       @AfterAll      -> After   all test methods  
+	@After                            @AfterEach     -> After  each method
+	@Test                             @Test          -> to define a test method
+	
+	
+	
+ 1.@Test
+  - use @Test annotation for every test cases inside the test class
+ 
+      
+ 
+ 
+ Code for Every Test method:
+ -------------------------------
+ 1.Prepare test data
+ 2.call the method
+ 3.verify/validate/assert the results
+ 
+ 
+ 
+ For assert the results , Use the Assertions class from the junit
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+      
