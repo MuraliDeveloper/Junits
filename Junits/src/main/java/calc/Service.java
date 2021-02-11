@@ -1,5 +1,8 @@
 package calc;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Service {
 
 	public int div(int a, int b) {
@@ -31,5 +34,12 @@ public class Service {
 		}
 
 		return true;
+	}
+	
+	List<String> names = new ArrayList<>();
+	public void addEntry(String name) {
+		if(name!=null && !"".equals(names)) {
+			names.add(name);
+		}
 	}
 }
